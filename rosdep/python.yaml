@@ -9521,6 +9521,12 @@ python3-squaternion-pip:
   ubuntu:
     pip:
       packages: [squaternion]
+python3-sshtunnel:
+  fedora: [python3-sshtunnel]
+  ubuntu: [python3-sshtunnel]
+  ubuntu:
+    pip:
+      packages: [sshtunnel]
 python3-stable-baselines3-pip:
   debian:
     pip:
@@ -10272,3 +10278,7 @@ yapf3:
   ubuntu:
     '*': [yapf3]
     xenial: null
+zulip-pip:
+  ubuntu:
+    pip:
+      packages: [zulip]
